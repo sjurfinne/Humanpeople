@@ -36,7 +36,7 @@ public class PlayScreen implements Screen {
         hud = new Hud(game.batch);
 
 
-        gameMap = new GameMap("map1.tmx");
+        gameMap = new GameMap("assets/map1.tmx");
         map = gameMap.getMap();
 
 
